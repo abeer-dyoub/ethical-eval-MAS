@@ -4,7 +4,7 @@
 
 /* Initial goals */
 sensetiveSlogan(environmentallyFriendly(product1)).
-unethical(X):- sensetiveSlogan(X).// & not relevant(A).
+unethical(X):- sensetiveSlogan(X) & not relevant(A).
 
 /* Plans */
 
